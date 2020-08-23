@@ -1,4 +1,4 @@
-# Cotton Diseases Detection
+# Cotton Diseases Detection:
 * Link of Dataset: https://drive.google.com/drive/folders/1vdr9CC9ChYVW2iXp6PlfyMOGD-4Um1ue
 * The datasets consists of images of cotton plants with diseases.
 * Here we have trained the model with Resnet152V2 and InceptionV3.
