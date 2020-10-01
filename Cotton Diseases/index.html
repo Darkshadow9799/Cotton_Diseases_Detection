@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JS Crash Course</title>
+    </head>
+    <body style="text-align: center;">
+        <header>
+            <h1>Tensorflowjs InceptionV3 model for Detecting whether the cotton plant is diseased or not.</h1>
+            <h3 id="upload_image" style="visibility: visible;">Upload Image</h3>
+            <img id="pred_img" src="" alt="Upload Image" style="height: 200px; width: 200px; visibility: hidden;"/><br>
+            <input type="file" id="select-img" onchange="changeImage()" accept="png, jpeg, jpg" style="margin-left: 50px; margin-top:20px;"/>
+            <h2 id="result"></h2>
+        </header>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
