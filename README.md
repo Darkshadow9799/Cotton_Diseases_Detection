@@ -39,3 +39,12 @@
 * For production we can use InceptionV3 as it has less trainable parameters and we get similar accuracy as Resnet152V2 which as comparitively much high trainable parameters.
 
 ---
+
+##
+* To run the project:
+> Step1: Fork the repo. to your local machine.
+> Step2: Go to Cotton Diseases folder.
+> Step3: Type command "python -m http.server 8000".
+> Step4: Open browser and go to "localhost:8000".
+
+### Note: You can also run the project by going to VSCode and then "Go Live".
