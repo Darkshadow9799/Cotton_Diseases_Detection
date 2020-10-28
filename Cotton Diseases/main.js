@@ -1,3 +1,4 @@
+// Actual Prediction Function
 async function predict() {
     const model = await tf.loadLayersModel('tfjs_models/model.json');
     //model.summary();
@@ -29,23 +30,29 @@ async function predict() {
     console.log(prediction);
 }
 
-
+// Image Uplodation Function
 function changeImage(){
     document.getElementById('upload_image').style.visibility="hidden";
     document.getElementById('pred_img').style.visibility="visible";
     var imageDisplay=document.getElementById('pred_img');
     var selectImage=document.getElementById('select-img').files[0];
     imageDisplay.src=URL.createObjectURL(selectImage);
+}
+
+// To go to predict function
+function predictPress(){
+    document.getElementById('result').innerHTML='';
     predict();
 }
 
-/* 
-if preds==0:
-    preds="The leaf is diseased cotton leaf"
-else if preds==1:
-    preds="The leaf is diseased cotton plant"
-else if preds==2:
-    preds="The leaf is fresh cotton leaf"
-else:
-    preds="The leaf is fresh cotton plant"
+/*
+CONDITIONS WITH INDEXES 
+CONDITION 0:
+    "The leaf is diseased cotton leaf"
+CONDITION 1:
+    "The leaf is diseased cotton plant"
+CONDITION 2:
+    "The leaf is fresh cotton leaf"
+CONDITION WHEN ABOVE ALL ARE FALSE:
+    "The leaf is fresh cotton plant"
 */
