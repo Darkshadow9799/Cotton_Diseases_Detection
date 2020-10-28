@@ -4,14 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>JS Crash Course</title>
+        <title>Cotton Plant Disease Prediction</title>
     </head>
     <body style="text-align: center;">
         <header>
             <h1>Tensorflowjs InceptionV3 model for Detecting whether the cotton plant is diseased or not.</h1>
             <h3 id="upload_image" style="visibility: visible;">Upload Image</h3>
             <img id="pred_img" src="" alt="Upload Image" style="height: 200px; width: 200px; visibility: hidden;"/><br>
-            <input type="file" id="select-img" onchange="changeImage()" accept="png, jpeg, jpg" style="margin-left: 50px; margin-top:20px;"/>
+            <input type="file" id="select-img" onchange="changeImage()" accept="png, jpeg, jpg" style="margin-left: 50px; margin-top:20px;"/><br>
+            <input type="submit" value="Predict" id="predict_btn" onclick="predictPress()" style="margin-top:20px;"/>
             <h2 id="result"></h2>
         </header>
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
