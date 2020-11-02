@@ -40,7 +40,7 @@
 
 ---
 
-##
+## How to Run:
 * To run the project:
 * Step1: Fork the repo. to your local machine.
 * Step2: Go to Cotton Diseases folder.
@@ -48,3 +48,9 @@
 * Step4: Open browser and go to "localhost:8000".
 
 ### Note: You can also run the project by going to VSCode and then "Go Live".
+
+---
+
+![Alt Text](run_images/1.jpeg)
+![Alt Text](run_images/3.jpeg)
+![Alt Text](run_images/2.jpeg)  
