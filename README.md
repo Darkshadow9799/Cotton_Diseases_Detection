@@ -51,4 +51,6 @@
 
 ---
 
+## Flutter Application for the Cotton Diseaes Detection:
+
 ![Alt Text](run_images/2.jpg)
