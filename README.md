@@ -51,5 +51,4 @@
 
 ---
 
-![Alt Text](run_images/1.jpg)
 ![Alt Text](run_images/2.jpg)
